@@ -9,4 +9,4 @@ import streamlit as st
 
 st.set_page_config(page_title="Student Depression App", layout="wide")
 st.title("🎓 Student Depression Analysis")
-st.markdown("###Veydaant Garg")
+st.subheader("Veydaant Garg")
