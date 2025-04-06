@@ -38,7 +38,7 @@ st.pyplot(fig4)
 
 st.markdown("### 5. Financial Stress vs Depression")
 fig5, ax5 = plt.subplots()
-sns.countplot(data=df, x='Financial Stress', hue='Depression', ax=ax5)
+sns.countplot(data=df, x='Financial Stress', hue='Depression', ax=ax5, order=['1', '2', '3','4','5'])
 st.pyplot(fig5)
 
 st.markdown("### 6. Correlation Heatmap")
