@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 st.title("📊 Data Visualization")
 
-df = pd.read_csv("student_depression.csv")
+df = pd.read_csv("student_depression/student_depression.csv")
 df['Sleep Duration'] = df['Sleep Duration'].str.replace("'", "").str.strip()
 
 st.markdown("### 1. Depression by Gender")
